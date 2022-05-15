@@ -1,4 +1,4 @@
-## O que é testes de regressão visual?
+## O que é teste de regressão visual?
 
 Testes de regressão visual (Visual Regression Tests/VRT) são testes de alto nível que conseguem expor qualquer alteração visual de um sistema, seja em uma página específica ou em um determinado fluxo que o usuário irá percorrer. Em vez de apenas assegurar que algum elemento ou valor de texto está presente, o teste realmente abre a página e verifica se esse bloco específico aparece exatamente como você quer que ele apareça. Para que isso seja feito, esse tipo de teste faz uma captura da página que está sendo testada e compara este screenshot com sua versão estável (baseline).
 
@@ -17,6 +17,7 @@ Teste de snapshot e teste de regressão visual são duas maneiras distintas de t
    - [Jest](https://jestjs.io/pt-BR/docs/snapshot-testing) (Gratuito)
  
 ## Referências
-- [Testes de regressão visual - Obtendo olhos a prova de erros](http://shipit.resultadosdigitais.com.br/blog/testes-de-regressao-visual-obtendo-olhos-a-prova-de-erros/)
+- [Ship it - Testes de regressão visual - Obtendo olhos a prova de erros](http://shipit.resultadosdigitais.com.br/blog/testes-de-regressao-visual-obtendo-olhos-a-prova-de-erros/)
 - [Jest - Diferença entre teste de snapshot e teste de regressão visual](https://jestjs.io/pt-BR/docs/snapshot-testing#qual-%C3%A9-a-diferen%C3%A7a-entre-teste-de-snapshot-e-teste-de-regress%C3%A3o-visual)
-- [Configurando o BackstopJS](https://medium.com/@vilariano/visual-regression-testing-c84eaf4e5254)
+- [Medium Agnaldo Vilariano - Configurando o BackstopJS](https://medium.com/@vilariano/visual-regression-testing-c84eaf4e5254)
+- [Iterasys - Testes de Regressão Visuais com Cypress e Percy](https://www.youtube.com/watch?v=d6-rhhoHhXs&t=5610s)
