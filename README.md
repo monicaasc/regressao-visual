@@ -15,6 +15,7 @@ Teste de snapshot e teste de regressão visual são duas maneiras distintas de t
  
  - **Snapshot**
    - [Jest](https://jestjs.io/pt-BR/docs/snapshot-testing) (Gratuito)
+   - [@cypress/snapshot](https://github.com/cypress-io/snapshot)
  
 ## Referências
 - [Ship it - Testes de regressão visual - Obtendo olhos a prova de erros](http://shipit.resultadosdigitais.com.br/blog/testes-de-regressao-visual-obtendo-olhos-a-prova-de-erros/)
