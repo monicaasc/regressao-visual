@@ -1,0 +1,23 @@
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.cache
+
+# Dependency directory
+node_modules
+yarn.lock
+
+backstop_data/bitmaps_reference
+backstop_data/bitmaps_test
+backstop_data/html_report
+backstop_data/json_report/
+backstop_data/reports/
+
+\.vscode/
