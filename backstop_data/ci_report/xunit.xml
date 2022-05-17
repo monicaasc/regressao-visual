@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BackstopJS" tests="14" failures="0" errors="0" skipped="0">
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Profile Github"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+    <testcase classname="document" name=" ›› Projeto 1"/>
+  </testsuite>
+</testsuites>

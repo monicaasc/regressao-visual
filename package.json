@@ -1,0 +1,22 @@
+{
+  "name": "regressao-visual",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicaasc/regressao-visual.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicaasc/regressao-visual/issues"
+  },
+  "homepage": "https://github.com/monicaasc/regressao-visual#readme",
+  "devDependencies": {
+    "backstopjs": "^6.0.4"
+  }
+}

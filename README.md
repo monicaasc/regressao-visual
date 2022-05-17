@@ -1,3 +1,41 @@
+# BackstopJS
+
+Inicializar a configuração de um pacote npm, nesse momento será criado o arquivo package.json
+
+`npm init`
+
+Instalar o BackstopJS. Adiciona o --save-dev para incluir nas dependências no arquivo package.json
+
+`npm install backstopjs --save-dev`
+
+Inicializar o backstopJS. Após o comando será criada a estrutura do backstop.
+
+`backstop init`
+
+Abrir o arquivo `backstop.json` e realizar configuração conforme desejado.
+
+> Necessário adicionar `viewports` conforme a necessidade.
+> Em _scenarios_ estarão os cenários de testes, sendo propriedades obrigatórias a _label_, que é um nome para a tela, e a _url_ que será o endereço objeto do teste.
+> As demais propriedades são opcionais.
+
+Utilizar o comando test para executar. Na primeira execução todos os testes irão falhar. O report será aberto, permitindo visualizar as imagens e validar se estão conforme esperado.
+
+`backstop test` 
+
+Após confirmar, é necessário aprovar as imagens que servirão de baseline para a execução dos testes. 
+
+`backstop approve`
+
+## Docker
+É possível utilizar o Docker para rodar os testes do BackstopJS.
+
+`backstop test --docker`
+
+### Documentação
+- [BackstopJS](https://www.npmjs.com/package/backstopjs)
+
+---
+
 ## O que é teste de regressão visual?
 
 Testes de regressão visual (Visual Regression Tests/VRT) são testes de alto nível que conseguem expor qualquer alteração visual de um sistema, seja em uma página específica ou em um determinado fluxo que o usuário irá percorrer. Em vez de apenas assegurar que algum elemento ou valor de texto está presente, o teste realmente abre a página e verifica se esse bloco específico aparece exatamente como você quer que ele apareça. Para que isso seja feito, esse tipo de teste faz uma captura da página que está sendo testada e compara este screenshot com sua versão estável (baseline).

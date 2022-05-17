@@ -14,23 +14,10 @@ pids
 node_modules
 yarn.lock
 
-
-compare/bower_components/**/.*
-examples/**/html_report/
-
-**/backstop_data/bitmaps_test/
-**/backstop_data/html_report/
-**/backstop_data/json_report/
-**/backstop_data/reports/
-compare/config.js
-capture/config.json
-
 backstop_data/bitmaps_reference
 backstop_data/bitmaps_test
 backstop_data/html_report
-
-compare/output/bitmaps_reference/
-compare/output/bitmaps_test/
-compare/output/config\.js
+backstop_data/json_report/
+backstop_data/reports/
 
 \.vscode/
