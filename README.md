@@ -1,20 +1,7 @@
 # BackstopJS
 
-Inicializar a configuração de um pacote npm, nesse momento será criado o arquivo package.json
-
-`npm init`
-
-Instalar o BackstopJS. Adiciona o --save-dev para incluir nas dependências no arquivo package.json
-
-`npm install backstopjs --save-dev`
-
-Inicializar o backstopJS. Após o comando será criada a estrutura do backstop.
-
-`backstop init`
-
 Abrir o arquivo `backstop.json` e realizar configuração conforme desejado.
 
-> Necessário adicionar `viewports` conforme a necessidade.
 > Em _scenarios_ estarão os cenários de testes, sendo propriedades obrigatórias a _label_, que é um nome para a tela, e a _url_ que será o endereço objeto do teste.
 > As demais propriedades são opcionais.
 
