@@ -14,7 +14,7 @@ Após confirmar, é necessário aprovar as imagens que servirão de baseline par
 `backstop approve`
 
 
-> OBS.: É possível alterar a estrutura para utilizar um arquivo de configuração .js, possibilitando separar em arquivos distintos as viewport e scenarios.
+> OBS.: É possível alterar a estrutura para utilizar um arquivo de configuração .js, possibilitando separar em arquivos distintos as viewports e scenarios.
 > [Example jsBasedConfig](https://github.com/garris/BackstopJS/tree/master/examples/jsBasedConfig) | [Viewports in separate files](https://github.com/garris/BackstopJS/issues/905)
 
 ## Docker
