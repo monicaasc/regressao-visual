@@ -13,6 +13,10 @@ Após confirmar, é necessário aprovar as imagens que servirão de baseline par
 
 `backstop approve`
 
+
+> OBS.: É possível alterar a estrutura para utilizar um arquivo de configuração .js, possibilitando separar em arquivos distintos as viewport e scenarios.
+> [Example jsBasedConfig](https://github.com/garris/BackstopJS/tree/master/examples/jsBasedConfig) | [Viewports in separate files](https://github.com/garris/BackstopJS/issues/905)
+
 ## Docker
 É possível utilizar o Docker para rodar os testes do BackstopJS.
 
@@ -36,7 +40,6 @@ Teste de snapshot e teste de regressão visual são duas maneiras distintas de t
  - **Regressão Visual**
    - [BackstopJS](https://garris.github.io/BackstopJS/) (Gratuito) - Open-source para testes de aplicações web.
    - [Percy](https://percy.io/) (Uso gratuito limitado a 5.000 snapshots por mês)
-   - Continua
  
  - **Snapshot**
    - [Jest](https://jestjs.io/pt-BR/docs/snapshot-testing) (Gratuito)
