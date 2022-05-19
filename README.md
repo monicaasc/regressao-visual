@@ -12,10 +12,10 @@ Acessar o arquivo `backstop.json` e realizar as configurações conforme desejad
 > Em _scenarios_ estarão os cenários de testes, sendo propriedades obrigatórias a _label_, que é um nome para a tela, e a _url_ que será o endereço objeto do teste.
 > As demais propriedades são opcionais.
 
-```
-OBS.: É possível alterar a estrutura para utilizar um arquivo de configuração .js, possibilitando separar em arquivos distintos as viewports e scenarios, por exemplo.
-[Example jsBasedConfig](https://github.com/garris/BackstopJS/tree/master/examples/jsBasedConfig) | [Viewports in separate files](https://github.com/garris/BackstopJS/issues/905)
-```
+
+> OBS.: É possível alterar a estrutura para utilizar um arquivo de configuração .js, possibilitando separar em arquivos distintos as viewports e scenarios, por exemplo.
+> [Example jsBasedConfig](https://github.com/garris/BackstopJS/tree/master/examples/jsBasedConfig) | [Viewports in separate files](https://github.com/garris/BackstopJS/issues/905)
+
 
 ### Comandos básicos
 
